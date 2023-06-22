@@ -1,0 +1,92 @@
+body {
+  font-family: 'Righteous', sans-serif;
+  background-color: antiquewhite;
+  color black;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+#title {
+  margin-bottom: 30px;
+}
+
+#input {
+  margin-top: 20px;
+}
+
+.book-list {
+  margin-top: 50px;
+}
+
+.book-list h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card-img {
+  max-width: 150px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.btn-secondary {
+  margin-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card p {
+      margin: 10px 0;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .column {
+      float: center;
+      width: 50%;
+      padding: 10px;
+    }
+
+    .row1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .column1 {
+      width: 50%;
+    }
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+
